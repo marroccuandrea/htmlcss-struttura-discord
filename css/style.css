@@ -5,7 +5,7 @@
   }
 
 .debug{
-  background-color: rgba(255,0,0,.2);
+  background-color: #DAA521;
   border: 1px solid black;
   }
 
@@ -72,4 +72,21 @@ nav ul li a{
     justify-content: flex-end;
     align-items: center;
     padding-right: 10px;
+}
+
+.jumbotron{
+    display: flex;
+    background-color: #00008B;
+    height: 520px;
+    align-items: center;
+}
+
+.container-jumbo{
+    display: flex;
+    width: 945px;
+    height: 415px;
+    background-color: #EE83EF;
+    border: 1px solid black;
+    margin: 0 auto;
+   
 }
