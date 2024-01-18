@@ -79,6 +79,7 @@ nav ul li a{
 
 .jumbotron{
     display: flex;
+    flex-wrap: wrap;
     background-color: #00008B;
     height: 520px;
     align-items: center;
@@ -86,10 +87,30 @@ nav ul li a{
 
 .container-jumbo{
     display: flex;
+    flex-wrap: wrap;
     width: 945px;
     height: 415px;
     background-color: #EE83EF;
     border: 1px solid black;
     margin: 0 auto;
-   
+}
+
+.bianco1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 620px;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+}
+
+.container1{
+    background-color: #2090FF;
+    width: 745px;
+    height: 515px;
+}
+.container2{
+    background-color: #FFC0CB;
+    width: 500px;
+    height: 515px;
 }
