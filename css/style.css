@@ -142,5 +142,45 @@ nav ul li a{
 .nero1{
     display: flex;
     background-color: #23272A;
-    height: 655px;
+    height: 660px;
+    justify-content: center;
 }
+
+.box-base{
+    display: flex;
+    width: 1250px;
+    height: 95%;
+    margin-top: 10px;
+}
+
+.box1{
+    display: flex;
+    width: 30%;
+    background-color: #F18080;
+    border: 1px dashed black;
+}
+.box2{
+    display: flex;
+    width: 17.5%;
+    background-color: #1FB3AB;
+    border: 1px dashed white;
+}
+.box3{
+    display: flex;
+    width: 17.5%;
+    background-color: #1FB3AB;
+    border: 1px dashed white;
+}
+.box4{
+    display: flex;
+    width: 17.5%;
+    background-color: #1FB3AB;
+    border: 1px dashed white;
+}
+.box5{
+    display: flex;
+    width: 17.5%;
+    background-color: #1FB3AB;
+    border: 1px dashed white;
+}
+
