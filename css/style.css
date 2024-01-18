@@ -123,16 +123,26 @@ nav ul li a{
     align-content: center;
     border: transparent;
 }
-
+.container-base{
+    display: flex;
+    width: 1250px;
+    flex-wrap: wrap;
+}
 .container1{
+    display: flex;
+    flex-wrap: wrap;
     background-color: #2090FF;
-    width: 745px;
+    width: 60%;
     height: 515px;
+    border: 2px dashed black;
 }
 .container2{
+    display: flex;
+    flex-wrap: wrap;
     background-color: #FFC0CB;
-    width: 500px;
+    width: 40%;
     height: 515px;
+    border: 2px dashed black;
 }
 
 .grigio2{
@@ -142,6 +152,7 @@ nav ul li a{
     height: 1045px;
     justify-content: center;
     align-content: center;
+    border: transparent;
 }
 
 .box-verde{
@@ -150,6 +161,7 @@ nav ul li a{
     width: 1250px;
     height: 935px;
     background-color: #238B23;
+    border: 2px dashed black;
 }
 
 .nero1{
@@ -220,13 +232,17 @@ hr{
 
 .logo-footer{
     display: flex;
-    font-size: 25px;
+    font-size: 21px;
     padding:  4px 10px 4px 10px;
+    background-color: #FFB6C2;
+    border: 2px dashed black;
 }
 
 .bottone{
     display: flex;
-    font-size: 25px;
+    font-size: 21px;
     padding:  4px 10px 4px 10px;
+    background-color: #FFB6C2;
+    border: 2px dashed black;
 }
 
