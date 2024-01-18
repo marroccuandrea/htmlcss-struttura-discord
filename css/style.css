@@ -122,3 +122,25 @@ nav ul li a{
     width: 500px;
     height: 515px;
 }
+
+.grigio2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #D3D3D3;
+    height: 1045px;
+    justify-content: center;
+    align-content: center;
+}
+
+.box-verde{
+    display: flex;
+    width: 1250px;
+    height: 935px;
+    background-color: #238B23;
+}
+
+.nero1{
+    display: flex;
+    background-color: #23272A;
+    height: 655px;
+}
