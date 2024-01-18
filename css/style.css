@@ -7,7 +7,11 @@
 .debug{
     background-color: #DAA521;
     border: 1px solid black;
-    }
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
     
 header{
   display: flex;
@@ -32,12 +36,15 @@ header{
     width: 250px;
     padding-left: 10px;
     background-color: #DAA521;
+    font-size: 20px;
+    border: 2px dashed black;
   }
 
 nav{
     height: 50px;
     width: 750px;
     background-color: #DAA521;
+    border: 2px dashed black;
 }
 
 .link{
@@ -58,6 +65,7 @@ nav ul li a{
     text-decoration: none;
     display: inline-block;
     padding: 5px 10px;
+    font-size: 20px;
 }
 
 .login{
@@ -66,6 +74,7 @@ nav ul li a{
     text-align:center;
     flex-grow: 1;
     height: 50px;
+    font-size: 20px;
 }
 
 .login .pulsante{
@@ -75,9 +84,10 @@ nav ul li a{
     align-items: center;
     padding-right: 10px;
     background-color: #DAA521;
+    border: 2px dashed black;
 }
 
-.jumbotron{
+.container-jumbo{
     display: flex;
     flex-wrap: wrap;
     background-color: #00008B;
@@ -85,13 +95,13 @@ nav ul li a{
     align-items: center;
 }
 
-.container-jumbo{
+.jumbotron{
     display: flex;
     flex-wrap: wrap;
     width: 945px;
     height: 415px;
     background-color: #EE83EF;
-    border: 1px solid black;
+    border: 2px dashed black;
     margin: 0 auto;
 }
 
@@ -102,6 +112,7 @@ nav ul li a{
     background-color: white;
     justify-content: center;
     align-content: center;
+    border: transparent;
 }
 .grigio{
     display: flex;
@@ -110,6 +121,7 @@ nav ul li a{
     background-color: #D3D3D3;
     justify-content: center;
     align-content: center;
+    border: transparent;
 }
 
 .container1{
@@ -134,6 +146,7 @@ nav ul li a{
 
 .box-verde{
     display: flex;
+    flex-wrap: wrap;
     width: 1250px;
     height: 935px;
     background-color: #238B23;
@@ -149,7 +162,7 @@ nav ul li a{
 .box-base{
     display: flex;
     width: 1250px;
-    height: 95%;
+    height: 600px;
     margin-top: 10px;
 }
 
@@ -157,30 +170,63 @@ nav ul li a{
     display: flex;
     width: 30%;
     background-color: #F18080;
-    border: 1px dashed black;
+    border: 2px dashed black;
 }
 .box2{
     display: flex;
     width: 17.5%;
     background-color: #1FB3AB;
-    border: 1px dashed white;
+    border: 2px dashed white;
 }
 .box3{
     display: flex;
     width: 17.5%;
     background-color: #1FB3AB;
-    border: 1px dashed white;
+    border: 2px dashed white;
 }
 .box4{
     display: flex;
     width: 17.5%;
     background-color: #1FB3AB;
-    border: 1px dashed white;
+    border: 2px dashed white;
 }
 .box5{
     display: flex;
     width: 17.5%;
     background-color: #1FB3AB;
-    border: 1px dashed white;
+    border: 2px dashed white;
+}
+hr{
+    color: white;
+}
+
+.nero2{
+    display: flex;
+    background-color: #23272A;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 115px;
+}
+
+.box-base1{
+    display: flex;
+    width: 1250px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7FFFD5;
+}
+
+.logo-footer{
+    display: flex;
+    font-size: 25px;
+    padding:  4px 10px 4px 10px;
+}
+
+.bottone{
+    display: flex;
+    font-size: 25px;
+    padding:  4px 10px 4px 10px;
 }
 
