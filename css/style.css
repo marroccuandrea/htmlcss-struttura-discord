@@ -14,18 +14,62 @@ header{
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  background-color: yellow;
+  background-color: #ADD8E6;
   height: 80px;
   }
 
 .logo{
-  display: flex;
-  justify-content: center;
-  flex-grow: 1;
-  text-align: center;
+    display: flex;
+    justify-content: right;
+    flex-grow: 1;
+    height: 50px;
   }
 
 .logo .logo-img{
-  width: 250px ;
-  text-align:left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
+    padding-left: 10px;
   }
+
+nav{
+    height: 50px;
+    width: 750px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.login{
+    display: flex;
+    justify-content: left;
+    text-align:center;
+    flex-grow: 1;
+    height: 50px;
+}
+
+.login .pulsante{
+    display: flex;
+    width: 250px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
